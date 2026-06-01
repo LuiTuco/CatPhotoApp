@@ -1,6 +1,12 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: lightgray;
-  color: black;
+  background-color: #8686ac;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 a {
@@ -40,4 +46,125 @@ button {
 button:hover {
   background-color: lightblue;
   font-weight: bold;
+}
+
+.title {
+  background-color: #272757;
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.title-logo img {
+  width: 100px;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+
+.main-card h2,
+p {
+  padding: 10px;
+}
+
+.main-card img {
+  border-radius: 30px;
+  padding: 10px;
+  width: auto;
+  height: 350px;
+}
+
+.cat-list {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.cat-list-card1 {
+  display: flex;
+  background-color: #505081;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+  margin: 100px;
+  border-radius: 30px;
+  color: white;
+  padding: 20px;
+}
+
+.card1-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card1-info h2 {
+  font-size: 60px;
+}
+
+.card1-info li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.cat-list-card1 img {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.top3 {
+  background-color: #0f0e47;
+  height: 50vh;
+  margin: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+.top3-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.top3-list h3 {
+  padding: 10px;
+  font-size: 35px;
+}
+
+.top3-list li {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.form-fill {
+  display: flex;
+  flex-direction: column;
+  background-color: #505081;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+fieldset {
+  margin-top: 20px;
+  padding: 20px;
 }

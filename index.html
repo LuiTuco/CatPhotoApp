@@ -3,12 +3,17 @@
 <html lang="en">
   <head>
     <title>CatPhotoApp</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/CatPhotoApp/style.css" />
   </head>
   <body>
     <main>
-      <h1>CatPhotoApp</h1>
-      <section>
+      <div class="title">
+        <h1>CatPhotoApp</h1>
+        <div class="title-logo">
+          <img src="/CatPhotoApp/CatLogo.webp" alt="" />
+        </div>
+      </div>
+      <section class="main-card">
         <h2>Cat Photos</h2>
         <p>
           Everyone loves
@@ -25,43 +30,54 @@
         </p>
         <a href="https://freecatphotoapp.com"
           ><img
-            src="/cateyes.jpg"
+            src="/CatPhotoApp/cateyes.jpg"
             alt="A cute orange cat lying on its back."
             width="300px"
         /></a>
       </section>
-      <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
-        <ul>
-          <li>catnip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
-        <figure>
-          <img
-            src="/angrycat.jpg"
-            alt="A slice of lasagna on a plate."
-            width="300px"
-          />
-          <figcaption>Cats <em>hate</em> lasagna.</figcaption>
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
-        <figure>
-          <img
-            src="/goofycats.jpg"
-            alt="Two tabby kittens sleeping together on a couch."
-            width="300px"
-          />
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
-        </figure>
+
+      <section class="cat-list">
+        <div class="cat-list-card1">
+          <div class="card1-info">
+            <h2>Cat Lists</h2>
+            <h3>Things cats love:</h3>
+            <ul>
+              <li>catnip</li>
+              <li>laser pointers</li>
+              <li>lasagna</li>
+            </ul>
+          </div>
+          <figure>
+            <img
+              src="/CatPhotoApp/angrycat.jpg"
+              alt="A slice of lasagna on a plate."
+              width="300px"
+            />
+            <figcaption>Cats <em>hate</em> lasagna.</figcaption>
+          </figure>
+        </div>
+
+        <div class="top3">
+          <div class="top3-list">
+            <h3>Top 3 things cats hate:</h3>
+            <ol>
+              <li>flea treatment</li>
+              <li>thunder</li>
+              <li>other cats</li>
+            </ol>
+          </div>
+          <figure>
+            <img
+              src="/CatPhotoApp/goofycats.jpg"
+              alt="Two tabby kittens sleeping together on a couch."
+              width="300px"
+            />
+            <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+          </figure>
+        </div>
       </section>
-      <section>
+
+      <section class="form-fill">
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <fieldset>
